@@ -2,7 +2,7 @@ const { chromium } = require('playwright');
 const fs = require('fs');
 
 const AUTH_FILE = 'auth.json';  // Session storage
-const PRODUCTS_FILE = 'C:\\Users\\yasha\\Downloads\\products.json';  // JSON data file
+const PRODUCTS_FILE = 'C:\\Users\\sodal\\Downloads\\products.json';  // JSON data file
 const BASE_URL = 'https://example.com';  // ✅ Replace with your real website
 const LOGIN_URL = `${BASE_URL}/auth/login`;  // ✅ Adjust if needed
 const CREDENTIALS = {
